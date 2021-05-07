@@ -33,19 +33,23 @@ firewall-cmd --add-service=http --permanent
 
 firewall-cmd --add-service=https --permanent
 
-apachectl restart
+firewall-cmd --reload
+
 
 ```
 
 
 Fonte: [digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-centos-8-pt)
 
-## Guia de instalação do pgadmin - Red Hat 8
+## Guia de instalação do pgadmin - CentOS 8
 
 
 ```bash
 
 # Preparando para instação
+
+apachectl restart
+
 install python3-libsemanage policycoreutils-python-utils
 
 rpm -i https://ftp.postgresql.org/pub/pgadmin/pgadmin4/yum/pgadmin4-redhat-repo-1-1.noarch.rpm
