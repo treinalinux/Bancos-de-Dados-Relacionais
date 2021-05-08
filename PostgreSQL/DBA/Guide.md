@@ -1,5 +1,10 @@
 # DBA
 
+O guia foi preparado com uma parte inicial de instalação e configuração rápida.
+
+Nos demais título serão abordados os pontos importantes.
+
+## Instalação e criação de  banco de dados
 
 ## Guia de instalação do PostgreSQL - CentOS 8
 
@@ -148,8 +153,28 @@ Type "help" for help.
 
 
 
+CREATE DATABASE treinalinux;
 
+postgres=# \l
 
+```
 
+## Gerenciamento de Instância de Banco de Dados
 
+## Information Schema
 
+## Conexão ao banco de dados
+
+## Gerenciamento de Memória e Estruturas de Dados
+
+## Gerenciamento de Logs
+
+## Administração de acesso e privilégio do Banco de Dados
+
+## Monitorando a performance do banco de dados
+
+## Gerenciamento de Memória
+
+## Backup
+
+## Replicação de dados
